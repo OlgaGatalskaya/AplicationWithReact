@@ -3,8 +3,8 @@ import React from 'react';
 const PostsStatusFilter = () => {
     return (
         <div className="btn-group">
-            <button/>
-            <button/>
+            <button  type="button" className="btn btn-info">Todos</button>
+            <button type="button" className="btn btn-outline-secondary">Que gustan</button>
         </div>
     )
 }
